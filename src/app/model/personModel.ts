@@ -1,6 +1,5 @@
 export interface PersonModel{
-  id: Number | String;
-  fullname: String;
-  birth: Date;
-
+  id: number | string;
+  fullname: string;
+  birth: number | string;
 }
